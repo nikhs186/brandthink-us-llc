@@ -11,6 +11,7 @@ const company = [
 ];
 
 const legal = [
+  { href: "/terms-and-conditions", label: "Terms & Conditions" },
   { href: "/privacy-policy", label: "Privacy Policy" },
   { href: "/returns-and-refunds", label: "Returns & Refunds" },
 ];
@@ -63,7 +64,10 @@ export default function Footer() {
 
         <div className="flex flex-col items-center justify-between gap-4 border-t border-white/10 py-8 text-xs sm:flex-row">
           <p>© {new Date().getFullYear()} BrandThink. All rights reserved.</p>
-          <div className="flex gap-6">
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
+            <Link href="/terms-and-conditions" className="hover:text-white">
+              Terms & Conditions
+            </Link>
             <Link href="/privacy-policy" className="hover:text-white">
               Privacy Policy
             </Link>
