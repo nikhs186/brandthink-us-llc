@@ -35,7 +35,7 @@ export const services: Service[] = [
       "Analytics, tracking & integrations",
     ],
     deliverables: ["Production-ready website", "CMS setup & training", "Launch checklist & handover docs"],
-    startingAt: "₹2,50,000",
+    startingAt: "$2,500",
     timeline: "3–6 weeks",
   },
   {
@@ -53,7 +53,7 @@ export const services: Service[] = [
       "Reusable design systems",
     ],
     deliverables: ["Sitemap & wireframes", "Clickable Figma prototype", "Design system & style guide"],
-    startingAt: "₹1,80,000",
+    startingAt: "$1,800",
     timeline: "2–4 weeks",
   },
   {
@@ -71,7 +71,7 @@ export const services: Service[] = [
       "Cloud deployment on AWS, Vercel & GCP",
     ],
     deliverables: ["Scalable web application", "Source code & documentation", "CI/CD pipeline & hosting setup"],
-    startingAt: "₹8,00,000",
+    startingAt: "$8,000",
     timeline: "8–16 weeks",
   },
   {
@@ -89,7 +89,7 @@ export const services: Service[] = [
       "Priority support & content edits",
     ],
     deliverables: ["Monthly health report", "Guaranteed response times", "Dedicated support channel"],
-    startingAt: "₹14,999/mo",
+    startingAt: "$149/mo",
     timeline: "Ongoing",
   },
 ];

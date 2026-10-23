@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "How much does a website cost?",
-    a: "Most marketing websites range from ₹2,50,000 to ₹12,00,000 depending on page count, functionality and integrations. After a short discovery call we send a fixed quote, so you always know the total cost up front.",
+    a: "Most marketing websites range from $2,500 to $12,000 depending on page count, functionality and integrations. After a short discovery call we send a fixed quote, so you always know the total cost up front.",
   },
   {
     q: "How long does a typical project take?",
